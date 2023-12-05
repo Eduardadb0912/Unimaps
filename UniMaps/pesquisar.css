@@ -1,0 +1,51 @@
+
+body {
+    background-color: #f5f5f5; /* Cor de fundo */
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+h1 {
+    color: #0066cc; /* Cor do título */
+}
+
+table {
+    display: flex;
+    border-collapse: collapse;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Cor da borda da tabela */
+}
+
+th, td {
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px; /* Espaçamento superior */
+    background-color: #0066cc; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #004080; /* Cor de fundo do botão ao passar o mouse */
+}
